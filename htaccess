@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine On
+ErrorDocument 404 /index.php
+#ErrorDocument 301 /index.php
+RewriteRule ^memberpage/(.*)/(.*)$ memberpage.php?mode=$1&generated=$2
+RewriteRule ^page/(.*)/(.*)$ page.php?mode=$1&generated=$2
+RewriteRule ^brins/(.*)/(.*)$ brin.php?mode=$1&generated=$2
+RewriteRule ^xml/(.*)$ xmlsearch.php?mode=$1
+RewriteRule ^tags/(.*)/$ tags.php?search=$1
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^database\.xml$ database.php [L]
+RewriteRule ^amp/(.*)/(.*)$ amp.php?mode=$1&generated=$2
+
+RewriteRule ^q/(.*)/(.*)$ /usr/lib/cgi-bin/t.sh?foo=$1&bar=$2
