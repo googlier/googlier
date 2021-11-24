@@ -6,3 +6,5 @@
 - 📫 How to reach me admin@googlier.com
 - 😄 Pronouns: he/him/oneself
 - ⚡ Fun fact about me I have fallen over 2000 times
+
+I am tired of working on googlier.com alone, I need some support from the open source community and some direction on what I should do with this project.  please email me for question mailto:admin@googlier.com
