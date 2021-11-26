@@ -10,3 +10,5 @@
 I am tired of working on googlier.com alone, I need some support from the open source community and some direction on what I should do with this project.  please email me for questions and support admin@googlier.com
 
 I can support people with erc20 tokens if they are willing to help me build out and code.
+
+I decide to just make another search engine, so much for open source contribs :/
